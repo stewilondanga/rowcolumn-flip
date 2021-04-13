@@ -125,7 +125,6 @@
   transform: rotateY(-180deg);
 }
 
-/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
@@ -137,6 +136,7 @@
   margin: 0 auto;
 }
 
+/*
 .cal {
   display: inline-block;
   background: #ffe;
