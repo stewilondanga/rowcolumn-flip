@@ -107,12 +107,11 @@
   transition-delay: 0.4s;
 }
 
-/*
-
-#flip-rows:checked ~ table {
+#flip-rows:checked~table {
   transform: rotateX(-180deg);
 }
-#flip-rows:checked ~ table tr {
+
+/*#flip-rows:checked ~ table tr {
   transform: rotateX(-180deg);
 }
 
