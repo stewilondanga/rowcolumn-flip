@@ -120,11 +120,12 @@
   transform: rotateY(-180deg);
 }
 
-/*#flip-columns:checked ~ table thead,
-#flip-columns:checked ~ table tbody {
+#flip-columns:checked~table thead,
+#flip-columns:checked~table tbody {
   transform: rotateY(-180deg);
 }
 
+/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
