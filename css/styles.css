@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,30 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+:root {
+  padding: 2rem;
+}
+
+* {
+  transition: transform 0.3s ease-out;
+}
+
+#flip-rows:checked ~ table {
+  transform: rotateX(-180deg);
+}
+#flip-rows:checked ~ table tr {
+  transform: rotateX(-180deg);
+}
+
+#flip-columns:checked ~ table td,
+#flip-columns:checked ~ table th {
+  transform: rotateY(-180deg);
+}
+#flip-columns:checked ~ table thead,
+#flip-columns:checked ~ table tbody {
+  transform: rotateY(-180deg);
 }
 
 #contact h1 {
