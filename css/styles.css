@@ -2,6 +2,10 @@
   padding: 2rem;
 }
 
+* {
+  transition: transform 0.3s ease-out;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -112,10 +116,6 @@
 }
 
 
-
-* {
-  transition: transform 0.3s ease-out;
-}
 
 #flip-rows:checked ~ table {
   transform: rotateX(-180deg);
