@@ -6,8 +6,6 @@
   transition: transform 0.3s ease-out;
 }
 
-/*
-
 .share__icon {
   width: 32px;
   height: 32px;
@@ -17,6 +15,7 @@
   margin-right: 3px;
 }
 
+/*
 .share__icon:last-of-type {
   margin-right: 0px;
 }
