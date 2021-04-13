@@ -1,3 +1,7 @@
+:root {
+  padding: 2rem;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -107,9 +111,7 @@
   transition-delay: 0.4s;
 }
 
-:root {
-  padding: 2rem;
-}
+
 
 * {
   transition: transform 0.3s ease-out;
