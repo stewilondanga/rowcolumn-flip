@@ -86,7 +86,6 @@
   transform: rotateX(90deg);
 }
 
-/*
 .share-button:hover .share__link {
   top: 0;
   opacity: 1;
@@ -96,6 +95,7 @@
   transition-delay: 0.1s;
 }
 
+/*
 .share-button:hover .share__link:nth-of-type(2) {
   transition-delay: 0.2s;
 }
