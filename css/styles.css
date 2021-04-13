@@ -115,12 +115,12 @@
   transform: rotateX(-180deg);
 }
 
-/*
-#flip-columns:checked ~ table td,
-#flip-columns:checked ~ table th {
+#flip-columns:checked~table td,
+#flip-columns:checked~table th {
   transform: rotateY(-180deg);
 }
-#flip-columns:checked ~ table thead,
+
+/*#flip-columns:checked ~ table thead,
 #flip-columns:checked ~ table tbody {
   transform: rotateY(-180deg);
 }
